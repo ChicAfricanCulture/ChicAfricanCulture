@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kitchen Memory — African food games that stick</title>
-</head>
 <body>
     <div class="container">
         <div class="header">
@@ -40,7 +33,7 @@
                         <a href="https://github.com/ChicAfricanCulture/spice-bubbles" target="_blank" class="code-link">View Code</a>
                     </div>
                 </div>
-              <div class="game-card">
+                <div class="game-card">
                     <h3>Chicken Dish Game</h3>
                     <p>A curious chicken in African print feathers invites you to explore. Click a region, learn a dish — from Doro Wat to Poulet Yassa. Gentle, slow, and full of flavor.</p>
                     <div class="game-links">
@@ -49,43 +42,43 @@
                     </div>
                 </div>
                 <div class="game-card">
-                    <h3>Odd One Out</h3>
-                    <p>A rapid-fire puzzle. Ten seconds per round — spot the ingredient or dish that doesn't belong. Inspired by Yoruba wisdom, it's a fun way to learn what goes with what.</p>
+                    <h3>African Foodways: Odd One Out</h3>
+                    <p>A rapid-fire puzzle that tests your knowledge of African dishes. With only 10 seconds per round, you must spot the ingredient or dish that doesn't belong. Inspired by Yoruba wisdom, it is a fun way to learn about the textures, base ingredients, and serving styles of African cuisine.</p>
                     <div class="game-links">
-                        <a href="#" target="_blank">Play</a>
-                        <a href="#" target="_blank" class="code-link">View Code</a>
+                        <a href="https://chicafricanculture.github.io/odd-one-out/" target="_blank">Play</a>
+                        <a href="https://github.com/ChicAfricanCulture/odd-one-out" target="_blank" class="code-link">View Code</a>
                     </div>
                 </div>
                 <div class="game-card">
                     <h3>The African Pantry Mahjong</h3>
-                    <p>Match ingredients, discover recipes. A classic Mahjong-style journey through the continent's diverse pantry. 64 tiles per level, and every match teaches you something.</p>
+                    <p>Explore the rich foodways of Africa through this classic Mahjong-style matching game. Match ingredients to discover recipes and learn about their cultural significance. With 64 tiles per level, it is a relaxing yet engaging journey through the continent's diverse pantry.</p>
                     <div class="game-links">
-                        <a href="#" target="_blank">Play</a>
-                        <a href="#" target="_blank" class="code-link">View Code</a>
+                        <a href="https://chicafricanculture.github.io/african-pantry-mahjong/" target="_blank">Play</a>
+                        <a href="https://github.com/ChicAfricanCulture/african-pantry-mahjong" target="_blank" class="code-link">View Code</a>
                     </div>
                 </div>
                 <div class="game-card">
                     <h3>Adinkra Movers</h3>
-                    <p>Symbols move. You spot the match. Fast-paced and beautiful — tap the golden window when Gye Nyame appears. Learn the meaning of each symbol as you play.</p>
+                    <p>A fast-paced symbol-matching game that brings Adinkra symbols to life. Watch as symbols like "Gye Nyame" move across the screen—tap the golden window when you spot the match. Choose between Normal and Hard modes to test your reflexes while learning the meaning of each sacred symbol.</p>
                     <div class="game-links">
-                        <a href="#" target="_blank">Play</a>
-                        <a href="#" target="_blank" class="code-link">View Code</a>
+                        <a href="https://chicafricanculture.github.io/adinkra-movers/" target="_blank">Play</a>
+                        <a href="https://github.com/ChicAfricanCulture/adinkra-movers" target="_blank" class="code-link">View Code</a>
                     </div>
                 </div>
                 <div class="game-card">
                     <h3>Adinkra Mahjong</h3>
-                    <p>Match tiles and uncover the wisdom of West Africa's Adinkra symbols. Stacked tiles, deep proverbs — click any tile to see its meaning.</p>
+                    <p>Match tiles and uncover the wisdom of West Africa's Adinkra symbols. This cultural matching game layers complexity as you progress, with stacked tiles and deep proverbs to guide you. Click any tile to see its meaning and connect with African heritage through play.</p>
                     <div class="game-links">
-                        <a href="#" target="_blank">Play</a>
-                        <a href="#" target="_blank" class="code-link">View Code</a>
+                        <a href="https://chicafricanculture.github.io/adinkra-mahjong/" target="_blank">Play</a>
+                        <a href="https://github.com/ChicAfricanCulture/adinkra-mahjong" target="_blank" class="code-link">View Code</a>
                     </div>
                 </div>
                 <div class="game-card">
                     <h3>Taste the Words of Africa</h3>
-                    <p>A letter grid filled with iconic African dishes. Find Jollof, Ugali, and more. A word puzzle for foodies and culture lovers.</p>
+                    <p>Dive into a letter grid filled with the names of iconic African dishes. From Jollof to Ugali, find and learn about the foods that define a continent. This word puzzle is a delicious challenge for foodies and culture lovers alike.</p>
                     <div class="game-links">
-                        <a href="#" target="_blank">Play</a>
-                        <a href="#" target="_blank" class="code-link">View Code</a>
+                        <a href="https://chicafricanculture.github.io/african-food-word-puzzle/" target="_blank">Play</a>
+                        <a href="https://github.com/ChicAfricanCulture/african-food-word-puzzle" target="_blank" class="code-link">View Code</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +89,7 @@
                 <a href="https://www.theafricangourmet.com/p/african-foodways-archive.html" target="_blank">Foodways Archive</a>
                 <a href="https://youtube.com/@theafricangourmet" target="_blank">YouTube</a>
             </div>
-            <p style="margin-top: 1.5rem;">All games are open source. Check individual repositories for license details.</p>
+            <p style="margin-top: 1.5rem;">All games in this collection are open source. Please refer to the individual repositories for their specific license information.</p>
             <p style="margin-top: 0.5rem; opacity: 0.7;">Maintained by The African Gourmet · Celebrating African culture through play and education.</p>
         </div>
     </div>
