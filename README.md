@@ -1,6 +1,6 @@
 <link rel="icon" href="images/sankofa-kitchen.jpg" type="image/jpeg"><body>
     <div class="container">
-        <div class="header">
+        <div class="header"><img src="images/sankofa-kitchen.jpg" alt="Sankofa Kitchen" class="header-image">
             <h1>Sankofa Kitchen</h1>
             <div class="tagline">
                 <span>Where African food lives in your gaming hands</span>
