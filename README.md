@@ -1,5 +1,5 @@
 <body>
-# Sankofa Kitchen
+<h1>Sankofa Kitchen</h1></body>
 ### Where African food lives in your gaming hands
 
 A collection of games born from the African kitchen — each one a small invitation to hold a recipe, remember a scent, or learn a dish through play.
