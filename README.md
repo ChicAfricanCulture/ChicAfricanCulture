@@ -1,4 +1,4 @@
-<link rel="icon" href="images/sankofa-kitchen.png" type="image/png"><body>
+<body>
 # Sankofa Kitchen
 ### Where African food lives in your gaming hands
 
