@@ -1,4 +1,4 @@
-<body>
+<link rel="icon" href="images/sankofa-kitchen.jpg" type="image/jpeg"><body>
     <div class="container">
         <div class="header">
             <h1>Sankofa Kitchen</h1>
