@@ -75,7 +75,7 @@
                 </div>
                 <div class="game-card">
                     <h3>Taste the Words of Africa</h3>
-                    <p>Dive into a letter grid filled with the names of iconic African dishes. From Jollof to Ugali, find and learn about the foods that define a continent. This word puzzle is a delicious challenge for foodies and culture lovers alike.</p>
+                    <p>Dive into a letter grid filled with the names of iconic African dishes. From Jollof to Ugali, find and learn about the foods that define a continent. This word puzzle is a delicious challenge for foodies and culture lovers alike.</p> 
                     <div class="game-links">
                         <a href="https://chicafricanculture.github.io/african-food-word-puzzle/" target="_blank">Play</a>
                         <a href="https://github.com/ChicAfricanCulture/african-food-word-puzzle" target="_blank" class="code-link">View Code</a>
