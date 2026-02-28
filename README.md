@@ -1,7 +1,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Kitchen Memory</h1>
+            <h1>Sankofa Kitchen</h1>
             <div class="tagline">
                 <span>Where African food lives in your gaming hands</span>
             </div>
@@ -11,7 +11,7 @@
         </div>
         <div class="about">
             <h2>About The African Gourmet</h2>
-            <p>This project is part of <a href="https://www.theafricangourmet.com" target="_blank">The African Gourmet</a> ecosphere — a digital archive dedicated to exploring and preserving African food culture, traditions, and wisdom. These games are playdates with that archive.</p>
+            <p>The Sankofa Kitchen project is part of <a href="https://www.theafricangourmet.com" target="_blank">The African Gourmet</a> ecosphere — a digital archive dedicated to exploring and preserving African food culture, traditions, and wisdom. These games are playdates with that archive.</p>
             <p>Visit the main site for field notes, recipes, and deeper stories from the kitchen.</p>
         </div>
         <div class="games">
