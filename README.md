@@ -40,7 +40,7 @@ A rapid-fire puzzle that tests your knowledge of African dishes. With only 10 se
 ### The African Pantry Mahjong
 Explore the rich foodways of Africa through this classic Mahjong-style matching game. Match ingredients to discover recipes and learn about their cultural significance. With 64 tiles per level, it is a relaxing yet engaging journey through the continent's diverse pantry.
 
-[Play](https://chicafricanculture.github.io/african-pantry-mahjong/) | [View Code](https://github.com/ChicAfricanCulture/african-pantry-mahjong)
+[Play](https://chicafricanculture.github.io/The-African-Pantry-Mahjong/) | [View Code](https://chicafricanculture.github.io/The-African-Pantry-Mahjong/)
 
 ### Adinkra Movers
 A fast-paced symbol-matching game that brings Adinkra symbols to life. Watch as symbols like "Gye Nyame" move across the screen—tap the golden window when you spot the match. Choose between Normal and Hard modes to test your reflexes while learning the meaning of each sacred symbol.
