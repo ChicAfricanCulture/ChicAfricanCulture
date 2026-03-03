@@ -14,7 +14,7 @@ Visit the main site for field notes, recipes, and deeper stories from the kitche
 
 ## The Games
 
-### East African Cusine Word Search Puzzle
+### East African Cuisine Word Search Puzzle
 Find the East African food dish in the grid. Words can be forward, backward, or diagonal. [Play](https://chicafricanculture.github.io/east-african-food-word-search-puzzle/) | [View Code](https://github.com/ChicAfricanCulture/east-african-food-word-search-puzzle)
 
 ### Recipe Rhythm
