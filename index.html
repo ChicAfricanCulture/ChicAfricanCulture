@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The African Gourmet Games | Play to Learn African Foodways</title>
+<meta name="description" content="Free browser games from The African Gourmet. Play to learn about African foodways, symbols and heritage: mahjong, word puzzles, reflex games and more.">
+<link rel="canonical" href="https://chicafricanculture.github.io/ChicAfricanCulture/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#1f4d35">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The African Gourmet">
+<meta property="og:title" content="The African Gourmet Games">
+<meta property="og:description" content="Free browser games from The African Gourmet. Play to learn about African foodways, symbols and heritage: mahjong, word puzzles, reflex games and more.">
+<meta property="og:url" content="https://chicafricanculture.github.io/ChicAfricanCulture/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The African Gourmet Games">
+<meta name="twitter:description" content="Free browser games from The African Gourmet. Play to learn about African foodways, symbols and heritage: mahjong, word puzzles, reflex games and more.">
+<style>
+:root{--green:#1f4d35;--green2:#163a28;--gold:#e0b24a;--terra:#c4643d;--cream:#fbf5ea;--ink:#2a2a22;--muted:#5d5a4e}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55;
+background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23c4643d' stroke-opacity='.07' stroke-width='2'%3E%3Ccircle cx='40' cy='40' r='12'/%3E%3Cpath d='M40 20v40M20 40h40'/%3E%3C/g%3E%3C/svg%3E")}
+a{color:inherit}
+.skip{position:absolute;left:-999px;top:0;background:var(--gold);color:#000;padding:.6rem 1rem;z-index:10}
+.skip:focus{left:0}
+header{background:var(--green);color:#fff;padding:2.5rem 1.25rem 3rem;text-align:center;position:relative;overflow:hidden}
+header::after{content:"";position:absolute;left:0;right:0;bottom:0;height:14px;
+background:repeating-linear-gradient(90deg,var(--gold) 0 18px,var(--terra) 18px 36px,var(--green2) 36px 54px)}
+.motif{width:64px;height:64px;margin:0 auto 1rem;display:block}
+.eyebrow{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,7vw,3.4rem);line-height:1.1;margin:.4rem 0 .8rem}
+.lead{max-width:38rem;margin:0 auto;font-size:1.08rem;color:#eef3ee}
+.lead strong{color:var(--gold)}
+.jump{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin:1.6rem 0 0;padding:0;list-style:none}
+.jump a{display:inline-block;padding:.45rem .9rem;border:1.5px solid rgba(224,178,74,.7);border-radius:999px;text-decoration:none;font-size:.9rem;color:#fff}
+.jump a:hover,.jump a:focus-visible{background:var(--gold);color:var(--green2)}
+main{max-width:1120px;margin:0 auto;padding:2rem 1.1rem 1rem}
+section{margin:0 0 2.6rem;scroll-margin-top:1rem}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem 1rem;border-bottom:2px solid var(--gold);padding-bottom:.4rem;margin-bottom:1.1rem}
+h2{font-family:Georgia,serif;color:var(--green);font-size:1.6rem;margin:0}
+.sec-head p{margin:0;color:var(--muted)}
+.grid{list-style:none;margin:0;padding:0;display:grid;gap:1rem;grid-template-columns:1fr}
+@media(min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:#fff;border-radius:14px;padding:1.2rem 1.2rem 1.1rem;display:flex;flex-direction:column;border-top:6px solid var(--terra);box-shadow:0 2px 10px rgba(31,77,53,.10);transition:transform .15s,box-shadow .15s}
+.card:nth-child(3n+2){border-top-color:var(--gold)}
+.card:nth-child(3n){border-top-color:var(--green)}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(31,77,53,.16)}
+.card h3{margin:0 0 .4rem;font-size:1.15rem;color:var(--green2)}
+.card p{margin:0 0 1rem;color:var(--muted);flex:1}
+.play{align-self:flex-start;background:var(--terra);color:#fff;text-decoration:none;font-weight:700;padding:.65rem 1.3rem;border-radius:999px;min-height:44px;display:inline-flex;align-items:center;gap:.4rem}
+.play:hover{background:#a94f2c}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.archive{background:var(--green2);color:#fff;border-radius:16px;padding:1.5rem 1.4rem;display:grid;gap:.6rem}
+.archive .eyebrow{margin:0}
+.archive h2{color:#fff}
+.archive p{margin:0;color:#dfe8e1}
+.archive a.btn{justify-self:start;margin-top:.4rem;background:var(--gold);color:var(--green2);text-decoration:none;font-weight:700;padding:.65rem 1.3rem;border-radius:999px}
+footer{background:var(--green);color:#eef3ee;text-align:center;padding:2rem 1.25rem 2.4rem;margin-top:1rem}
+footer ul{list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;justify-content:center}
+footer a{color:var(--gold);font-weight:600}
+footer small{color:#c9d6cc}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#games">Skip to the games</a>
+<header>
+  <svg class="motif" viewBox="0 0 64 64" aria-hidden="true"><g fill="none" stroke="#e0b24a" stroke-width="4" stroke-linecap="round"><circle cx="32" cy="32" r="20"/><circle cx="32" cy="32" r="9"/><path d="M32 4v12M32 48v12M4 32h12M48 32h12"/></g><circle cx="32" cy="32" r="3.5" fill="#c4643d"/></svg>
+  <p class="eyebrow">The African Gourmet</p>
+  <h1>Games</h1>
+  <p class="lead">Play to learn about African <strong>foodways</strong>, <strong>symbols</strong> and <strong>heritage</strong>. Free in your browser, no download, made for phones too.</p>
+  <ul class="jump" aria-label="Jump to a game category">
+    <li><a href="#g0">Matching &amp; Mahjong</a></li>
+    <li><a href="#g1">Word Puzzles</a></li>
+    <li><a href="#g2">Focus &amp; Reflex</a></li>
+    <li><a href="#g3">Calm &amp; Learn</a></li>
+  </ul>
+</header>
+<main id="games">
+    <section aria-labelledby="g0">
+      <div class="sec-head"><h2 id="g0">Matching &amp; Mahjong</h2><p>Match tiles, pair dishes, spot the difference.</p></div>
+      <ul class="grid">
+      <li class="card">
+        <h3>Adinkra Mahjong</h3>
+        <p>Classic Mahjong matching with Ghanaian Adinkra symbols, so you learn what each symbol means as you clear the board.</p>
+        <a class="play" href="https://chicafricanculture.github.io/Adinkra-Mahjong/" aria-label="Play Adinkra Mahjong">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>The African Pantry Mahjong</h3>
+        <p>A mahjong game celebrating African ingredients. Match tiles and discover the pantry of West Africa.</p>
+        <a class="play" href="https://chicafricanculture.github.io/The-African-Pantry-Mahjong/" aria-label="Play The African Pantry Mahjong">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>African Food × Country</h3>
+        <p>Match traditional dishes to their countries and unlock real recipes along the way.</p>
+        <a class="play" href="https://chicafricanculture.github.io/African-Food-Card-Game/" aria-label="Play African Food × Country">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>African Food: Odd One Out</h3>
+        <p>Click tiles to reveal African food images, then pick the odd one out. A visual literacy game about food traditions.</p>
+        <a class="play" href="https://chicafricanculture.github.io/odd-out-match-game/" aria-label="Play African Food: Odd One Out">Play <span aria-hidden="true">→</span></a>
+      </li>
+      </ul>
+    </section>
+    <section aria-labelledby="g1">
+      <div class="sec-head"><h2 id="g1">Word Puzzles</h2><p>For anyone who loves a good word hunt.</p></div>
+      <ul class="grid">
+      <li class="card">
+        <h3>African Food Word Puzzle</h3>
+        <p>Sankofa Kitchen's word and recipe puzzle, with cultural facts and recipes tucked inside.</p>
+        <a class="play" href="https://chicafricanculture.github.io/african-food-word-puzzle/" aria-label="Play African Food Word Puzzle">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>East African Cuisine Word Search Puzzle</h3>
+        <p>Find East African dishes hidden in the grid, forward, backward, or diagonal.</p>
+        <a class="play" href="https://chicafricanculture.github.io/east-african-food-word-search-puzzle/" aria-label="Play East African Cuisine Word Search Puzzle">Play <span aria-hidden="true">→</span></a>
+      </li>
+      </ul>
+    </section>
+    <section aria-labelledby="g2">
+      <div class="sec-head"><h2 id="g2">Focus &amp; Reflex</h2><p>Quick hands, sharp eyes, African kitchens.</p></div>
+      <ul class="grid">
+      <li class="card">
+        <h3>Kitchen Pair Rush</h3>
+        <p>Match pairs of African food ingredients as they slide past in opposite directions. Made for your phone.</p>
+        <a class="play" href="https://chicafricanculture.github.io/kitchen-fire/" aria-label="Play Kitchen Pair Rush">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>Adinkra Movers</h3>
+        <p>Match West African Adinkra symbols while rows move, colors distract, and the symbols get harder to tell apart.</p>
+        <a class="play" href="https://chicafricanculture.github.io/moving-adinkra/" aria-label="Play Adinkra Movers">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>Recipe Rhythm</h3>
+        <p>Tap the recipe in order. A timing and attention challenge with African food at its heart.</p>
+        <a class="play" href="https://chicafricanculture.github.io/recipe-rhythm/" aria-label="Play Recipe Rhythm">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>Spice Interference — African Spices</h3>
+        <p>Build scent memory through words alone as black and white turns to color chaos. Each correct pop reveals a scent description, across 6 levels.</p>
+        <a class="play" href="https://chicafricanculture.github.io/spice-bubbles/" aria-label="Play Spice Interference — African Spices">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>Teff Texture Trap — Dinner Rush</h3>
+        <p>Family is coming for dinner and it's your first time making teff bread on your own. Keep the process steady and finish a batch before they arrive.</p>
+        <a class="play" href="https://chicafricanculture.github.io/teff-dinner-rush/" aria-label="Play Teff Texture Trap — Dinner Rush">Play <span aria-hidden="true">→</span></a>
+      </li>
+      </ul>
+    </section>
+    <section aria-labelledby="g3">
+      <div class="sec-head"><h2 id="g3">Calm &amp; Learn</h2><p>Slow down and explore.</p></div>
+      <ul class="grid">
+      <li class="card">
+        <h3>Chicken Across Africa</h3>
+        <p>A gentle click-and-learn game with a curious chicken in African print feathers. Click regions to discover chicken dishes from across the continent.</p>
+        <a class="play" href="https://chicafricanculture.github.io/chicken-dish-game/" aria-label="Play Chicken Across Africa">Play <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="card">
+        <h3>Rachaph — Hovering Presence</h3>
+        <p>A meditative game about presence. Hover in the void and watch particles gather where you stay.</p>
+        <a class="play" href="https://chicafricanculture.github.io/merachefet/" aria-label="Play Rachaph — Hovering Presence">Play <span aria-hidden="true">→</span></a>
+      </li>
+      </ul>
+    </section>
+    <aside class="archive" aria-labelledby="arch">
+      <p class="eyebrow">From the archive</p>
+      <h2 id="arch">African Foodways Heritage Archive</h2>
+      <p>Not a game, but the place where it all comes from: archiving the intangible systems of African food, since 2006.</p>
+      <a class="btn" href="https://chicafricanculture.github.io/african-foodways-data/">Visit the archive</a>
+    </aside>
+</main>
+<footer>
+  <ul>
+    <li><a href="https://www.youtube.com/@TheAfricanGourmet">YouTube: The African Gourmet</a></li>
+    <li><a href="https://www.theafricangourmet.com">TheAfricanGourmet.com</a></li>
+    <li><a href="https://www.africanfood.recipes">AfricanFood.recipes</a></li>
+    <li><a href="https://github.com/ChicAfricanCulture">GitHub</a></li>
+  </ul>
+  <small>Made with love by Ivy, The African Gourmet. Africa is closer than you think.</small>
+</footer>
+</body>
+</html>
